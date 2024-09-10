@@ -1,0 +1,75 @@
+body {
+    font-family: 'Times New Roman', Times, serif; /* Fuente Times New Roman */
+    background-color: #9cd533; /* Fondo azul */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px; /* Puedes ajustar el tamaño máximo según lo necesites */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e0f7fa; /* Color verde agua bajo */
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilos específicos para la página de registro exitoso */
+.success-container {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.success-container a {
+    color: #5cb85c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.success-container a:hover {
+    text-decoration: underline;
+}
